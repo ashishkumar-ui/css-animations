@@ -15,10 +15,8 @@ modules.forEach(function(directory) {
     json[directory] = true;
 });
 
-console.log(JSON.stringify(json));
+console.log(JSON.stringify(json, null, 4));
 
-var createStream = fs.writeFile("module-list.json", JSON.stringify(json), () => {
+var createStream = fs.writeFile("module-list.json", JSON.stringify(json, null, 4), () => {
 
 });
-// writeStream.write(JSON.stringify(json));
-// createStream.end();
