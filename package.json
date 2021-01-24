@@ -1,0 +1,18 @@
+{
+  "name": "css-animations",
+  "version": "1.0",
+  "description": "A collection of CSS animations",
+  "author": "Ashish Kumar --- https://KumarAshish.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashishkumar-ui/css-animations"
+  },
+  "scripts": {
+    "start": "live-server",
+    "build": "node build-modules.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
