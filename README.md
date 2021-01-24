@@ -7,13 +7,11 @@ npm install
 ```
 
 ## build app
-## install dependencies
 ```cmd
 npm run build
 ```
 
 ## start app
-## install dependencies
 ```cmd
 npm start
 ```
